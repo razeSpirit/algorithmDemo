@@ -3,11 +3,10 @@ package org.lhn.selectionsort;
 import org.lhn.util.SortTestTools;
 
 /**
- * Created With IntelliJ IDEA
- * User: LiHaiNan
- * Date: 2016/12/26 0026
- * Time: 下午 5:23
- * 选择排序算法O(n^2) 级别的
+ * @author LiHaiNan
+ * @version V1.0
+ * @Description: 选择排序算法O(n^2) 级别的
+ * @date 上午 10:50 2017/10/16 0016
  */
 public class SelectionSort {
 
@@ -29,7 +28,14 @@ public class SelectionSort {
     * 3.检索之后的最小数的位置并与第二名的位置交换，以此类推实现排序
     * */
 
-    //int arr[]要排序的数组，int n 数组大小
+    /**
+     * @Title: selectionSort
+     * @Description: 选择排序算法
+     * @Date:上午 10:47 2017/10/16 0016
+     * @author LiHaiNan
+     * @param: int[] arr, int n
+     * @return: void
+     */
     public static void selectionSort(int[] arr, int n) {
         for (int i = 0; i < n; i++) {
             //遍历数组，寻找[i,n)区间里的最小值
