@@ -1,0 +1,6 @@
+*.o
+*.*.bak
+/.idea
+algorithmDemo.iml
+/target
+/out
