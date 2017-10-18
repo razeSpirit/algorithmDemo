@@ -51,6 +51,4 @@ public class SelectionSort {
             SortTestTools.swap(arr, i, minIndex);
         }
     }
-
-
 }
