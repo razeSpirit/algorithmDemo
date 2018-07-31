@@ -1,4 +1,4 @@
-package org.lhn.insertionsort;
+package org.lhn.sort.insertion;
 
 import org.lhn.util.SortTestTools;
 
@@ -75,5 +75,11 @@ public class InsertionSort {
             }
             arr[j] = e;
         }
+    }
+
+    public static void sort(Comparable[] arr, int l, int r) {
+
+
+
     }
 }

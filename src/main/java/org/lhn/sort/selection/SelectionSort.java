@@ -1,11 +1,11 @@
-package org.lhn.selectionsort;
+package org.lhn.sort.selection;
 
 import org.lhn.util.SortTestTools;
 
 /**
  * @author LiHaiNan
  * @version V1.0
- * @Description: 选择排序算法O(n^2) 级别的
+ * @Description: 选择排序 - Selection Sort 选择排序算法O(n^2) 级别的
  * @date 上午 10:50 2017/10/16 0016
  */
 public class SelectionSort {

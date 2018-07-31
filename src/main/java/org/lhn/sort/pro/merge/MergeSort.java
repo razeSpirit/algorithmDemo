@@ -1,4 +1,4 @@
-package org.lhn.mergesort;
+package org.lhn.sort.pro.merge;
 
 import org.lhn.util.SortTestTools;
 
